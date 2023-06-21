@@ -4,7 +4,7 @@ DOMAIN=github.com
 ORIGIN=origin
 REPO=stark-industries-x/test
 DEFAULT_BRANCH=master
-TOTAL=5
+TOTAL=14
 
 set -ex
 
@@ -32,6 +32,6 @@ done
 git checkout $INIT_BRANCH
 
 set +x
-for ((i = 1; i <= TOTAL; i++)); do
+for ((i = 6; i <= TOTAL; i++)); do
   echo "https://$DOMAIN/$REPO/pull/new/pr$i"
 done
