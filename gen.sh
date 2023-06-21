@@ -2,7 +2,7 @@
 
 DOMAIN=github.com
 ORIGIN=origin
-REPO=NotJHSN/test
+REPO=stark-industries-x/test
 DEFAULT_BRANCH=master
 TOTAL=5
 
